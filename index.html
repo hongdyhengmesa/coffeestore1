@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee-Store</title>
+    <link rel="short cut icon" href="/assets/image/logo.png">
+    <!-- font awesume cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS animate scroll css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Start link Css -->
+    <link rel="stylesheet" href="/assets/Css/style.css" />
+    <!-- End link Css -->
+  </head>
+  <body>
+    <!-- start scroll top -->
+    <div id="progress">
+      <i class="fa-solid fa-arrow-up-long" id="progress-value"></i>
+    </div>
+    <!-- end scroll top -->
+
+    <!-- Start header section -->
+    <header class="header" data-aos="fade-down" data-aos-duration="1000">
+      <a href="#" class="logo">
+        <img src="/assets/image/logo.png" alt="" />
+      </a>
+      <!-- header navbar -->
+      <ul class="navbar">
+        <li class="menu-item"><a href="#home">Home</a></li>
+        <li class="menu-item"><a href="#about">About</a></li>
+        <li class="menu-item"><a href="#menu">Menu</a></li>
+        <li class="menu-item"><a href="#blog">Blog</a></li>
+        <li class="menu-item"><a href="#shop">Shop</a></li>
+        <li class="menu-item"><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- header icon -->
+      <div class="icons">
+        <div>
+          <i class="fas fa-search" id="search-btn"></i>
+        </div>
+        <div class="card-toggle" id="cart-btn">
+          <i class="fa solid fa-basket-shopping" id="search-btn"></i>
+          <span class="quantity">0</span>
+        </div>
+        <div>
+          <i class="fas fa-bars" id="menu-btn"></i>
+        </div>
+      </div>
+      <!-- header search -->
+      <div class="search-form">
+        <input
+          type="text"
+          name=""
+          id="search-box"
+          placeholder="search here...."
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+      <!-- header cart items -->
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/assets/image/s-p-11.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">20.56$</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/assets/image/s-p-11.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">20.56$</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/assets/image/s-p-11.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">20.56$</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/assets/image/s-p-11.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">20.56$</div>
+          </div>
+        </div>
+        <div class="sub-total">
+          <span>SUB TOTAL:</span>
+          <span>87.78$</span>
+        </div>
+        <div class="sub-botton">
+          <a href="#" class="sub-btn">checkout now</a>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>rosted coffee for you</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio iste
+          beatae, architecto voluptatum quos quibusdam.
+        </p>
+        <div class="home-btn">
+          <a href="#" class="btn">Read More</a>
+          <a href="#" class="btn">Testy Coffee</a>
+        </div>
+        <ul>
+          <li>
+            <i class="fa-brands fa-facebook"></i>
+            <span>Facebook</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-twitter"></i>
+            <span>Twitter</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-youtube"></i>
+            <span>Youtube</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- card section start -->
+    <section class="bg-service">
+      <div class="service-one" data-aos="fade-right" data-aos-duration="1000">
+        <div class="image">
+          <img src="/assets/image/f-1.jpeg" alt="" />
+        </div>
+        <div class="over-txt">
+          <span>01</span>
+          <h4>Best Coffee flavourite</h4>
+        </div>
+      </div>
+      <div class="service-one" data-aos="fade-up" data-aos-duration="1000">
+        <div class="image">
+          <img src="/assets/image/f-2.jpeg" alt="" />
+        </div>
+        <div class="over-txt">
+          <span>02</span>
+          <h4>Best Coffee flavourite</h4>
+        </div>
+      </div>
+      <div class="service-one" data-aos="fade-left" data-aos-duration="1000">
+        <div class="image">
+          <img src="/assets/image/f-3.jpeg" alt="" />
+        </div>
+        <div class="over-txt">
+          <span>03</span>
+          <h4>Best Coffee flavourite</h4>
+        </div>
+      </div>
+
+      <div class="service-one" data-aos="fade-up" data-aos-duration="1000">
+        <div class="image">
+          <img src="/assets/image/contain1.webp" alt="" />
+        </div>
+        <div class="over-txt">
+          <span>04</span>
+          <h4>Best Coffee flavourite</h4>
+        </div>
+      </div>
+      <div class="service-one" data-aos="fade-left" data-aos-duration="1000">
+        <div class="image">
+          <img src="/assets/image/contain2.png" alt="" />
+        </div>
+        <div class="over-txt">
+          <span>05</span>
+          <h4>Best Coffee flavourite</h4>
+        </div>
+      </div>
+      <div class="service-one" data-aos="fade-right" data-aos-duration="1000">
+        <div class="image">
+          <img src="/assets/image/contain3.jpg" alt="" />
+        </div>
+        <div class="over-txt">
+          <span>06</span>
+          <h4>Best Coffee flavourite</h4>
+        </div>
+      </div>
+    </section>
+    <!-- card section start -->
+
+    <!-- start about section -->
+    <section class="about" id="about">
+      <h1 class="heading" data-aos="fade-up" data-aos-duration="1000">
+        <span>about</span>
+        us
+      </h1>
+      <div class="row">
+        <div class="image" data-aos="fade-right" data-aos-duration="1000">
+          <img src="/assets/image/about-bg-3-1.jpeg" alt="" />
+        </div>
+        <div class="content" data-aos="fade-left" data-aos-duration="1000">
+          <h3>create a story with us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            rem unde reprehenderit at consequuntur reiciendis sapiente veniam
+            vero perferendis totam.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            rem unde reprehenderit at consequuntur reiciendis sapiente veniam
+            vero perferendis totam.
+          </p>
+          <a href="#" class="btn about_btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+    <!-- start menu section -->
+    <section class="bg-menu" id="menu">
+      <div class="heading" data-aos="fade-up" data-aos-duration="1000">
+        Coffee Popular
+        <span>Menu</span>
+      </div>
+      <div class="menu-flex">
+        <div class="menu1" data-aos="fade-right" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-1.png" alt="" />
+          </div>
+          <div>
+            <h4>Hot latte</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$2.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-right" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-2.png" alt="" />
+          </div>
+          <div>
+            <h4>Capochino</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$1.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-down" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-3.png" alt="" />
+          </div>
+          <div>
+            <h4>Hot Coffee</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$1.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-down" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-4.png" alt="" />
+          </div>
+          <div>
+            <h4>Hot Capochino</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$1.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-right" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-5.png" alt="" />
+          </div>
+          <div>
+            <h4>Hot Coffee</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$2.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-right" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-6.png" alt="" />
+          </div>
+          <div>
+            <h4>Capochino</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$2.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-down" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-1.png" alt="" />
+          </div>
+          <div>
+            <h4>Coffee Hot</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$1.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-down" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-2.png" alt="" />
+          </div>
+          <div>
+            <h4>coffee latte</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$2.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-right" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-3.png" alt="" />
+          </div>
+          <div>
+            <h4>coffee latte</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$1.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-right" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-4.png" alt="" />
+          </div>
+          <div>
+            <h4>coffee latte</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$2.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-down" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-5.png" alt="" />
+          </div>
+          <div>
+            <h4>coffee latte</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$1.50</h4>
+          </div>
+        </div>
+        <div class="menu1" data-aos="fade-down" data-aos-duration="1000">
+          <div class="small-img">
+            <img src="/assets/image/menu-2-6.png" alt="" />
+          </div>
+          <div>
+            <h4>coffee latte</h4>
+          </div>
+          <div class="line"></div>
+          <div>
+            <h4>$2.50</h4>
+          </div>
+        </div>
+      </div>
+      <div class="menu-link" data-aos="fade-up" data-aos-duration="1000">
+        <a href="#">view menu</a>
+      </div>
+    </section>
+    <!-- end menu section -->
+    <!-- start more menu -->
+    <section class="blogs" id="blog">
+      <h1 class="heading" data-aos="fade-right" data-aos-duration="1000">OUR <span>more menu</span></h1>
+      <div class="box-container">
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Keyvin Ratin</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger2.avif" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: NALATA</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-left" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Keyvin </span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-left" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Thysound</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger5.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Neto</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: D7</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger7.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: All3G</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger8.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Time3c</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-left" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger9.webp" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Ronaldo</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger10.webp" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Ronaldo</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-down" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger11.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Ronaldo</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-left" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/berger12.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The best seller for the resturant, This food for the best for store.</a
+            >
+            <span>By: Ronaldo</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end more menu -->
+    <!-- start product section -->
+    <section class="bg-shop" id="shop">
+      <div class="shop-links">
+        <h1 class="heading" data-aos="fade-left" data-aos-duration="1000">
+          Coffee Popular
+          <span>Product</span>
+        </h1>
+        <button class="btn" data-aos="fade-right" data-aos-duration="1000">view all product</button>
+      </div>
+      <div class="shop-flex">
+        <div class="shop1" data-aos="fade-left" data-aos-duration="1000">
+          <div class="shop-image">
+            <img src="/assets/image/pp-2.png" alt="" />
+            <div class="price">-7%</div>
+            <div class="social">
+              <a href="#"><i class="fas fa-shopping-basket"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <h2>hot coffee</h2>
+          <div class="starts">
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <article>$32.00</article>
+          <span>$45.00</span>
+        </div>
+        <div class="shop1" data-aos="fade-up" data-aos-duration="1000">
+          <div class="shop-image">
+            <img src="/assets/image/pp-2.png" alt="" />
+            <div class="price">-7%</div>
+            <div class="social">
+              <a href="#"><i class="fas fa-shopping-basket"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <h2>hot coffee</h2>
+          <div class="starts">
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <article>$32.00</article>
+          <span>$45.00</span>
+        </div>
+        <div class="shop1" data-aos="fade-up" data-aos-duration="1000">
+          <div class="shop-image">
+            <img src="/assets/image/pp-2.png" alt="" />
+            <div class="price">-7%</div>
+            <div class="social">
+              <a href="#"><i class="fas fa-shopping-basket"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <h2>hot coffee</h2>
+          <div class="starts">
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <article>$32.00</article>
+          <span>$45.00</span>
+        </div>
+        <div class="shop1" data-aos="fade-right" data-aos-duration="1000">
+          <div class="shop-image">
+            <img src="/assets/image/pp-2.png" alt="" />
+            <div class="price">-7%</div>
+            <div class="social">
+              <a href="#"><i class="fas fa-shopping-basket"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <h2>hot coffee</h2>
+          <div class="starts">
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <article>$32.00</article>
+          <span>$45.00</span>
+        </div>
+        <div class="shop1" data-aos="fade-left" data-aos-duration="1000">
+          <div class="shop-image">
+            <img src="/assets/image/amazone1.jpg" alt="" />
+            <div class="price">-7%</div>
+            <div class="social">
+              <a href="#"><i class="fas fa-shopping-basket"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <h2>hot coffee</h2>
+          <div class="starts">
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <article>$32.00</article>
+          <span>$45.00</span>
+        </div>
+        <div class="shop1" data-aos="fade-up" data-aos-duration="1000">
+          <div class="shop-image">
+            <img src="/assets/image/amazone2.jpg" alt="" />
+            <div class="price">-7%</div>
+            <div class="social">
+              <a href="#"><i class="fas fa-shopping-basket"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <h2>hot coffee</h2>
+          <div class="starts">
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <article>$32.00</article>
+          <span>$45.00</span>
+        </div>
+        <div class="shop1" data-aos="fade-up" data-aos-duration="1000">
+          <div class="shop-image">
+            <img src="/assets/image/amazone3.jpg" alt="" />
+            <div class="price">-7%</div>
+            <div class="social">
+              <a href="#"><i class="fas fa-shopping-basket"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <h2>hot coffee</h2>
+          <div class="starts">
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <article>$32.00</article>
+          <span>$45.00</span>
+        </div>
+        <div class="shop1" data-aos="fade-right" data-aos-duration="1000">
+          <div class="shop-image">
+            <img src="/assets/image/amazone4.jpg" alt="" />
+            <div class="price">-7%</div>
+            <div class="social">
+              <a href="#"><i class="fas fa-shopping-basket"></i></a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <h2>hot coffee</h2>
+          <div class="starts">
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <article>$32.00</article>
+          <span>$45.00</span>
+        </div>
+      </div>
+    </section>
+    <!-- end product section -->
+    <!-- start contact section -->
+    <section class="contact" id="contact">
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.3990580570567!2d106.02617627483282!3d12.489687687783123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310d1b25af738ae3%3A0x1a3e1cce8a3c73b6!2sAmazon!5e0!3m2!1skm!2skh!4v1729480011648!5m2!1skm!2skh"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          data-aos="fade-right" data-aos-duration="1000"
+        ></iframe>
+        <form action="" data-aos="fade-left" data-aos-duration="1000">
+          <h3>get in touch</h3>
+          <div class="inputbox">
+            <input type="number" placeholder="5 person" />
+            <span class="fas fa-user"></span>
+          </div>
+          <div class="inputbox">
+            <input type="date" placeholder="22.10.2024" />
+            <span class="fa-solid fa-calendar-days"></span>
+          </div>
+          <div class="inputbox">
+            <input type="time" placeholder="11:20 PM" />
+            <span class="fa-solid fa-clock"></span>
+          </div>
+          <a href="#" class="btn">contact now</a>
+        </form>
+      </div>
+    </section>
+    <!-- end contact section -->
+    <!-- start section blog -->
+    <section class="blogs" id="blog">
+      <h1 class="heading" data-aos="fade-right" data-aos-duration="1000">OUR <span>news & articles</span></h1>
+      <div class="box-container">
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/blog-1.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/blog-2.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-down" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/blog-3.webp" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-down" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee2.webp" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-left" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee6.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-left" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee6.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-down" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee7.webp" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <div class="image">
+            <img src="/assets/image/coffee8.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >The popular for the Coffee store, The best coffee and Enjoy with us.</a
+            >
+            <span>By: Coffena</span>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section blog -->
+    <!-- start section footer -->
+    <section class="footer">
+      <div class="footer1" data-aos="fade-down" data-aos-duration="1000">
+        <div class="location-address">
+          <img src="/assets/image/ft-phone.png" alt="" />
+          <span>phone</span>
+          <a href="#">+123-4567-908</a>
+        </div>
+        <div class="location-address">
+          <img src="/assets/image/ft-map-marker.png" alt="" />
+          <span>address:</span>
+          <a href="#">Kratie krongKroches</a>
+        </div>
+        <form action="#">
+          <input type="text" placeholder="Enter your email...." />
+          <button class="footer-btn">
+            Subscribe
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+      <div class="footer2" data-aos="fade-down" data-aos-duration="1000">
+        <div class="footer2-logo">
+          <img src="/assets/image/logo.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, <br>
+            laudantium a! Recusandae dolorem ipsam quia. Iste, dolore dicta.
+          </p>
+        </div>
+        <div class="footer2-social">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer3">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#blogs">blogs</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#shop">shop</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- end section footer -->
+    <!-- AOS animate scroll Js link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Start link Javascript -->
+    <script src="/assets/Js/main.js"></script>
+    <!-- End link Javascript -->
+  </body>
+</html>
